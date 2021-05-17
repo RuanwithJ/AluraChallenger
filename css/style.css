@@ -1,0 +1,76 @@
+body{
+    font-family: Inter;
+    font-size: 10px;
+    background-color: #E5E5E5;
+    color: #FFF;
+    background-color: #051D3B;
+}
+nav, #principal{
+    width: 100%;
+}
+nav{
+    position: relative;
+    padding: 40px 0;
+}
+#logo{
+    position: absolute;
+    top: 22px;
+    width: 138px;
+    left: 20px;
+}
+#barraDePesquisa{
+    background: rgba(255, 255, 255, 0.16);
+    border: solid 0px #96B9FD;
+    border-radius: 4px;
+    padding: 8px 4px;
+    width: 40%;
+    position: absolute;
+    top: 24px;
+}
+#pesquisa{
+    width: 40%;
+    margin: 0 auto;
+}
+#foto-perfil{
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    margin: 5px;
+}
+#usuario p{
+    display: inline-block;
+    color: white;
+    position: relative;
+    bottom: 12px;
+    margin-right: 20px;
+    font-size: 1.6em;
+}
+#usuario{
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+#menu{
+    padding-top: 40px;
+    margin-left: 20px;
+}
+#menu h2{
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+#menu div img{
+    width: 30px;
+    margin-right: 10px;
+}
+#menu div p{
+    font-size: 1.8em;
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+}
+#menu div{
+    position: relative;
+    margin-bottom: 10px;
+}
