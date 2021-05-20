@@ -44,3 +44,22 @@ li div{
     padding: 10px 0;
     background-color: rgba(0, 0, 0, 0.16);
 }
+@media screen and (max-width: 900px){
+    li{
+        text-align: left;
+        margin: 0 0;
+        width: 98%;
+        margin-bottom: 40px;
+    }
+    ul{
+        margin-top: 20px;
+        width: 98%;
+        margin-left: 1%;
+         position: initial;
+         text-align: center;
+     }
+    .editor-texto{
+        padding-bottom: 300px;
+        font-size: 2em;
+    }
+}
