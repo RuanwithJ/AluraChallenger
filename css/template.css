@@ -1,0 +1,125 @@
+
+body{
+    font-family: Inter;
+    font-size: 10px;
+    background-color: #E5E5E5;
+    color: #FFF;
+    background-color: #051D3B;
+}
+nav, #principal{
+    width: 100%;
+}
+nav{
+    position: relative;
+    padding: 40px 0;
+}
+#logo{
+    position: absolute;
+    top: 22px;
+    width: 138px;
+    left: 20px;
+}
+#barraDePesquisa{
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.16);
+    color: #FFF;
+    border: solid 0px #96B9FD;
+    border-radius: 4px;
+    padding: 12px 6px;
+    width: 50%;
+    position: absolute;
+    top: 24px;
+}
+::-webkit-input-placeholder {
+    color: #DFDFDF;
+ }
+#pesquisa{
+    width: 50%;
+    margin: 0 auto;
+}
+#foto-perfil{
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    margin: 5px;
+}
+#usuario p{
+    display: inline-block;
+    color: white;
+    position: relative;
+    bottom: 12px;
+    margin-right: 20px;
+    font-size: 1.6em;
+}
+#usuario{
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+#menu{
+    position: absolute;
+    top: 100px;
+    margin-left: 20px;
+}
+#menu h2, #projeto h2{
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+#menu div img{
+    width: 30px;
+    margin-right: 10px;
+}
+#menu div p{
+    font-size: 1.8em;
+    display: inline-block;
+    position: relative;
+    top: -10px;
+}
+#menu div{
+    position: relative;
+    width: 170px;
+    margin-bottom: 10px;
+}
+
+a p{
+    color:#FFF;
+}
+
+#mobile-imgs img{
+    width: 0;
+}
+@media screen and (max-width: 900px){
+    #foto-perfil{
+        width: 0;
+    }
+    #usuario p{
+        font-size: 0;
+    }
+    #menu div{
+        width: 0px;
+    }
+    #menu div img{
+        width: 0px;
+    }
+    #menu div p{
+        font-size: 0;
+    }
+    #menu h2{
+        font-size: 0;
+    }
+    #barraDePesquisa{
+        width: 0;
+        padding: 0;
+    }
+    #mobile-imgs{
+        position: absolute;
+        top: 2.2em;
+        right: 20px;
+    }
+    #mobile-imgs img{
+        margin-left: 3.6em;
+        width: auto;
+    }
+}

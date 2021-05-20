@@ -1,13 +1,20 @@
 <!DOCTYPE html>
 <html lang='pt-br'>
     <head>
+        	<meta charset='UTF-8'>
+		<meta name='viewport' content='width=device-width'>
         <link rel='stylesheet' href='css/reset.css'>
+        <link rel='stylesheet' href='css/template.css'>
         <link rel='stylesheet' href='css/style.css'>
         <title>Alura dev</title>
     </head>
     <body>
         <nav>
             <img id='logo' src='img/Logo.png'>
+            <div id='mobile-imgs'>
+                <img src='img/busca.png'>
+                <img src='img/options.png'>
+            </div>
             <div id='pesquisa'>
                 <input id='barraDePesquisa' type="text" placeholder="Busque por algo">
             </div>
@@ -19,15 +26,40 @@
         <section id='principal'>
             <section id='menu'>
                 <h2>menu</h2>
-                <div>
-                    <img src='img/Icon.png'>
-                    <p>Editor de codigo</p>
+                <div id='editor-button'>
+                    <a href="index.html">
+                        <img src='img/Icon.png'>
+                        <p>Editor de codigo</p>
+                    </a>
                 </div>
-                <div>
-                    <img src='img/Icon2.png'>
-                    <p>Comunidade</p>
+                    <div id='community-button'>
+                    <a href="community.html"> 
+                        <img src='img/Icon2.png'>
+                        <p>Comunidade</p>
+                    <a>
                 </div>
             </section>
+            <section id='editor'>
+                <input type="text" id='editor-texto'>
+                <img id='mc-buttons' src='img/mac_buttons.png'>
+            <div>
+                <button id='hl-button'>Visualizar com o highlight</button>
+            </div>
         </section>
+            <section id='projeto'>
+                <h2>Seu projeto</h2>
+                <input class='projeto-input' type="text" placeholder="Nome do seu projeto">
+                <input class='projeto-input' id='descri' type="text" placeholder="Descrição do projeto">
+                <h2>Personalização</h2>
+                <select id='lang'>
+                    <option>JavaScript</option>
+                    <option>Python</option>
+                </select>
+                <select id='colors'>
+                </select>
+                <button id='save-button'>Salvar projeto</button>
+            </section>
+        </section>
+        <script src='js/mudarCor.js'></script>
     </body>
 </html>

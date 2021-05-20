@@ -1,76 +1,140 @@
-body{
-    font-family: Inter;
-    font-size: 10px;
-    background-color: #E5E5E5;
-    color: #FFF;
+
+ #community-button p{
+    color:rgba(255, 255, 255, 0.7);
+}
+#projeto{
+    position: absolute;
+    right: 40px;
+    top: 100px;
+}
+.projeto-input, #save-button{
+    display: block;
+    padding: 12px 60px 12px 20px; 
+    background: rgba(255, 255, 255, 0.16);
+    border: 0px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+#descri{
+    padding: 12px 60px 50px 20px;
+    margin-bottom: 20px;
+}
+select{
+    background: rgba(255, 255, 255, 0.16);
+    display: block;
+    padding: 12px 14px; 
+    border: 0px;
+    border-radius: 4px;
+    margin-top: 10px;
+    width: 260px;
+    color:#DFDFDF;
+}
+option{
     background-color: #051D3B;
 }
-nav, #principal{
-    width: 100%;
+
+#colors{
+    border: #051D3B 6px solid;
+    box-shadow: #FFF 0 0 0 1px;
+    padding: 5px 8px; 
+    margin-top: 20px;
 }
-nav{
-    position: relative;
-    padding: 40px 0;
+#save-button{
+    width: 260px;
+    padding: 20px 0;
+    margin-top: 30px;
+    background-color: #5081FB;
 }
-#logo{
-    position: absolute;
-    top: 22px;
-    width: 138px;
-    left: 20px;
-}
-#barraDePesquisa{
-    background: rgba(255, 255, 255, 0.16);
-    border: solid 0px #96B9FD;
-    border-radius: 4px;
-    padding: 8px 4px;
-    width: 40%;
-    position: absolute;
-    top: 24px;
-}
-#pesquisa{
-    width: 40%;
+#editor{
+    width: 50%;
     margin: 0 auto;
 }
-#foto-perfil{
-    width: 25px;
-    height: 25px;
-    border-radius: 25px;
-    margin: 5px;
+#editor-texto{
+    position: absolute;
+    top: 100px;
+    font-size: 1em;
+    width: 50%;
+    box-sizing: border-box;
+    color:#FFF;
+    background-color: #000;
+    border: solid blue 32px;
+    border-radius: 4px;
+    padding: 40px 0 170px 1%;
+    display: block;
 }
-#usuario p{
+#mc-buttons{
+    position: relative;
+    top: 60px;
+    left: 40px;
+}
+#editor-texto div{
+    width: fit-content;
+    margin: 0 auto;
+}
+#hl-button{
+    width: 50%;
+    box-sizing: border-box;
     display: inline-block;
+    position: absolute;
+    top: 410px;
+    background-color: rgb(50, 81, 161, 12%);
+    border: none;
+    border-radius: 2px;
     color: white;
-    position: relative;
-    bottom: 12px;
-    margin-right: 20px;
-    font-size: 1.6em;
+    padding: 16px 0;
 }
-#usuario{
-    position: absolute;
-    right: 10px;
-    top: 20px;
+a p{
+    color:#FFF;
 }
-#menu{
-    padding-top: 40px;
-    margin-left: 20px;
-}
-#menu h2{
-    text-transform: uppercase;
-    letter-spacing: 0.4em;
-    font-size: 1.2em;
-    margin-bottom: 10px;
-}
-#menu div img{
-    width: 30px;
-    margin-right: 10px;
-}
-#menu div p{
-    font-size: 1.8em;
-    display: inline-block;
-    position: absolute;
-    top: 5px;
-}
-#menu div{
-    position: relative;
-    margin-bottom: 10px;
+@media screen and (max-width: 900px){
+    #principal{
+        width: 100%;
+        text-align: center;
+    }
+    #editor-texto{
+        font-size: 1.4em;
+        width: 98%;
+        padding: 40px 0 90% 5%;
+        font-size: 2em;
+        position: initial;
+    }
+    #editor{
+        margin-top: 20px;
+        margin-left: 2%;
+        
+        width: 98%;
+    }
+    #hl-button{
+        position: initial;
+        margin-bottom: 20px;
+    }
+    #mc-buttons{
+        top: -400px;
+        left: -30%;
+    }
+    #projeto{
+        position:initial;
+        
+       margin: 0 0 0 2%;
+    }
+    #menu{
+        right: none;
+    }
+    .projeto-input{
+        padding: 5px 0 30px 2%;
+        width: 96%;
+    }
+    #projeto h2{
+        text-align: left;
+    }
+    #descri{
+        padding: 5px 0 60px 2%;
+    }
+    #colors, #save-button, select{
+        margin: 20 auto;
+        width: 98%;
+    }
+    #save-button{
+        margin-bottom: 20px;
+    }
 }
